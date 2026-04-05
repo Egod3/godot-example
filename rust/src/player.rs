@@ -14,7 +14,7 @@ struct Player {
 #[godot_api]
 impl ISprite2D for Player {
     fn init(base: Base<Sprite2D>) -> Self {
-        godot_print!("Hello, world!"); // Prints to the Godot console
+        godot_print!("What wrath hath god wrought");
 
         Self {
             speed: 400.0,
